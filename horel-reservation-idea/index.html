@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation-Idea</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/Bootstrap/bootstrap-4.5.3-dist/css/bootstrap.css">
+
+    <script src="/assets/jquery/jquery-3.5.1.min.js"></script>
+    <script src="assets/Bootstrap/bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/ade9cd48f4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container-fluid my-bg ">
+        <div class="container main_div">
+            <div class="row ">
+                <!-- LEFT -->
+                <div id="left_side" class="col-lg-6 mt-5">
+                   <div class="row  mt-5 justify-content-center">
+                       <p id="make_reservation" class="font_lobster" >Make Your Reservation</p>
+                   </div>
+                   <div class="row mt-5">
+                       <p id="left_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                           Inventore rem praesentium saepe officiis quisquam nostrum placeat aliquid
+                            sapiente maxime.
+                      </p>
+                   </div>
+                </div>
+                <!-- FORM -->
+                <div id="right_side" class="col-lg-6 col-md-12 bg-danger">
+                    <div class="row p-3 mt-5">
+                        <h1 class="font_lobster">Your Room</h1>
+                    </div>
+                    <div class="row p-3">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                                <h2 class="" style="font-family: Lobster;">Choose room for:</h2>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-4 col-4  text-sm-center">
+                            <buttom class="btn my_btn" id="divOne" type="submit"onclick="showDivOne()">One</buttom>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-4 col-4  text-sm-center">
+                            <buttom class="btn my_btn" id="divTwo" onclick="showDivTwo()">Two</buttom>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-4 col-4 text-sm-center">
+                                <buttom class="btn my_btn" id="divThree" onclick="showDivThree()">Three</buttom>
+                        </div>
+                    </div>
+                    <section id="official_div">
+                        <div class="row">
+                            <div class="col-12 text-justify">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                     Blanditiis, in, quia magnam veritatis tenetur, minus maiores 
+                                     at est minima cupiditate atque quis qui
+                                     ipsum molestias nam impedit. Explicabo, eos vel!
+                               </p>
+                            </div>
+                        </div>
+                        <div class="row mt-3 text-center">
+                            <div class="col-3 text-center">
+                                <i class="fas fa-swimming-pool"></i>                              
+                            </div>
+                            <div class="col-3 text-center">
+                                <i class="fas fa-wifi"></i>                              
+                            </div>
+                            <div class="col-3 text-center">
+                                <i class="fas fa-utensils"></i>                        
+                            </div>
+                            <div class="col-3 text-center">
+                                <i class="fas fa-cocktail"></i>
+                            </div>
+                      </div>
+                       <div class="row mb-4 text-center">
+                            <div class="col-3">
+                                <label>Swimming Pool</label>
+                            </div>
+                            <div class="col-3">
+                                <label>Wi-FI</label>
+                            </div>
+                            <div class="col-3">
+                                <label>Restourant</label>
+                            </div>
+                            <div class="col-3">
+                                <label>Bar</label>
+                            </div>
+                        </div>               
+                    </section>
+                    <form id="div_one">
+                        <div class="row mt-2">
+                            <div class="col-6">
+                                <label>First Name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="col-6">
+                                <label>Last Name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-12">
+                                <label>E-mail</label>
+                                <input type="email" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-6">
+                                <label>Check-In</label>
+                                <input type="date" class="form-control">
+                            </div>
+                            <div class="col-6">
+                                <label>Check-Out</label>
+                                <input type="date" class="form-control">
+                            </div>
+                        </div>
+                       <div class="row mt-2">
+                           <div class="col-12">
+                               <label>Transaction</label>
+                               <input type="text" class="form-control">
+                           </div>
+                       </div>                  
+                       <div class="row mt-3 mb-4">
+                           <div class="col-lg-4 colmd-4 col-sm-6 col-6 ">
+                               <button type="submit" class="btn book_btn form-control">Book Now</button>
+                           </div>
+                       </div>
+                    </form> 
+                    <form id="div_two">
+                        <div class="row mt-2">
+                            <div class="col-6">
+                                <label>First Name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="col-6">
+                                <label>Last Name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-12">
+                                <label>E-mail</label>
+                                <input type="email" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-6">
+                                <label>Check-In</label>
+                                <input type="date" class="form-control">
+                            </div>
+                            <div class="col-6">
+                                <label>Check-Out</label>
+                                <input type="date" class="form-control">
+                            </div>
+                        </div>
+                       <div class="row mt-2">
+                           <div class="col-12">
+                               <label>Transaction</label>
+                               <input type="text" class="form-control">
+                           </div>
+                       </div>
+                        <div class="row mt-2">
+                            <div class="col-6">
+                                <label>Adults</label>
+                                <input type="number" class="form-control">
+                            </div>
+                            <div class="col-6">
+                                <label>Kids</label>
+                                <input type="number" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-12">
+                                <label>Type Of Bed/s</label>
+                                <select class="form-control">Bed/s
+                                    <option>Two Beds For One Person</option>
+                                    <option>One Bed For Two Persons</option>
+                               </select>
+                            </div>
+                        </div>
+                        <div class="row mt-3 mb-4">
+                            <div class="col-lg-4 colmd-4 col-sm-6 col-6">
+                                <button type="submit" class="btn book_btn form-control">Book Now</button>
+                            </div>
+                        </div>
+                    </form> 
+                    <form id="div_three">
+                        <div class="row mt-2">
+                            <div class="col-6">
+                                <label>First Name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="col-6">
+                                <label>Last Name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-12">
+                                <label>E-mail</label>
+                                <input type="email" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-6">
+                                <label>Check-In</label>
+                                <input type="date" class="form-control">
+                            </div>
+                            <div class="col-6">
+                                <label>Check-Out</label>
+                                <input type="date" class="form-control">
+                            </div>
+                        </div>
+                       <div class="row mt-2">
+                           <div class="col-12">
+                               <label>Transaction</label>
+                               <input type="text" class="form-control">
+                           </div>
+                       </div>
+                        <div class="row mt-2">
+                            <div class="col-6">
+                                <label>Adults</label>
+                                <input type="number" class="form-control">
+                            </div>
+                            <div class="col-6">
+                                <label>Kids</label>
+                                <input type="number" class="form-control">
+                            </div>                           
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-12">
+                                <label>Type Of Bed/s</label>
+                                <select class="form-control">Bed/s
+                                    <option>Three Beds For One Person</option>
+                                    <option>One Bed For One Person & One Bed For Two Persons</option>
+                               </select>
+                            </div>
+                        </div>
+                        <div class="row mt-3 mb-4">
+                            <div class="col-lg-4 colmd-4 col-sm-6 col-6">
+                                <button type="submit" class="btn book_btn form-control">Book Now</button>
+                            </div>
+                        </div>
+                    </form>                                                            
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    function showDivOne() {
+        document.getElementById("div_one").style.display="block";
+        document.getElementById("div_two").style.display="none";
+        document.getElementById("div_three").style.display="none";
+        document.getElementById("official_div").style.display="none";
+    }
+    function showDivTwo() {
+        document.getElementById("div_two").style.display="block";
+        document.getElementById("div_one").style.display="none";
+        document.getElementById("div_three").style.display="none";
+        document.getElementById("official_div").style.display="none";
+    }
+    function showDivThree() {
+        document.getElementById("div_three").style.display="block";
+        document.getElementById("div_one").style.display="none";
+        document.getElementById("div_two").style.display="none";
+        document.getElementById("official_div").style.display="none";
+    }
+
+</script>

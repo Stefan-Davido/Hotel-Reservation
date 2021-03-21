@@ -1,0 +1,81 @@
+@font-face{
+    font-family: Lobster;
+    src: url(..//font/Lobster-Regular.ttf);
+}
+
+.font_lobster{
+    font-family: Lobster;
+}
+
+#make_reservation{
+    color: white;
+    font-size: 45px !important; 
+    justify-self: center;
+    align-self: center;
+    position: absolute;
+}
+
+#right_side{
+    border-radius: 18px;
+}
+
+#left_side{
+    display: block;
+}
+
+#left_text{
+    font-size: 16px;
+    color:white
+}
+
+.main_div{
+    position: relative;
+    top:50%;
+    transform:translateY(-70%)
+}
+
+.my-bg {
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../img/beach.jfif);
+    background-position:center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.my_btn{
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    color:white !important;
+    background-color: #53d8e1 !important;
+    width:75px
+}
+
+#div_one{
+    display: none;
+}
+#div_two{
+    display: none;
+}
+#div_three{
+    display: none;
+}
+#div_four{
+    display: none;
+}
+
+.book_btn{
+    background-color: #53d8e1 !important;
+    color:white !important;
+    font-weight: 700 !important;
+    border-radius: 5px !important;
+}
+
+.fas{
+    font-size: 34px !important;
+} 
+ @media(max-width:992px){
+
+    #left_side{
+        display: none;
+    }
+ }
+
